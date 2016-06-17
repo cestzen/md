@@ -1,0 +1,23 @@
+{
+  "name": "filemetadata",
+  "version": "1.0.1",
+  "description": "A service that provides metadata about a file",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cestzen/md.git"
+  },
+  "homepage": "",
+  "bugs": "https://github.com/cestzen/md.git",
+  "scripts": {
+    "start": "node server.js",
+    "build": "browserify index.js -o bundle.js"
+  },
+  "author": "C'est Zen",
+  "dependencies": {
+    "browserify": "^13.0.1",
+    "dotenv": "^1.2.0",
+    "express": "^4.12.4",
+    "multer": "^1.1.0"
+  }
+}
